@@ -17,6 +17,12 @@ public class Test1 {
 		 Test1 t4 = new Test1();
 		 Test1 t5 = new Test1(); 
 		 Test1 t6 = new Test1();
+		 Test1 t7 = new Test1();
+		 Test1 t8 = new Test1(); 
+		 Test1 t9 = new Test1();
+		 Test1 t0 = new Test1();
+		 Test1 ta = new Test1(); 
+		 Test1 tb = new Test1();
 	 
 	 
 		System.out.println(count);
