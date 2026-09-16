@@ -8,14 +8,13 @@ public class Literals {
 	//	Decimal Literals : Base is 10: 0  to 9
 		int a1 = 100;
 		int a2 = 200;
-		int a3 = 123;
-		int a4 =0123;
+		int a3 = 1239999109;
 		
 //		Whenever the number starts with 0 will consider as Octal.
 //		Octal Literals : Base is 8: 0  to 7
-//		0^8*1 + 1^8*2 + 2^8*1 + 3^8*0 = 83
 //		
-		int a5 = 0345; // 229
+		int a4 =0123; // 0^8*3 + 1^8*2 + 2^8*1 + 3^8*0 = 83
+		int a5 = 0345; //  3* 8^3 + 4* 8^2 + 5* 8^0 = 192 + 32 + 5 = 229
 		int a6 = 0675; //  423
 //		int a7 =0286; // The literal 0286 of type int is out of range  
 	    
