@@ -3,40 +3,41 @@ package Labprograms;
 import java.util.Scanner;
 
 public class ScannerClass {
+	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] madhu) {
 		ScannerClass l = new ScannerClass();
-		Scanner sc = new Scanner(System.in);
+		
 		method();
-		divisible(sc);
-		l.name(sc);
-		l.method1(sc);
-		l.addition(sc);
-		l.subtraction(sc);
-		method2(sc);
-		even(sc);
-		l.odd(sc);
-		l.reverse(sc);
-		l.reverse1(sc);
-		l.table(sc);
-		divisible1(sc);
-		addition1(sc);
-		sscMarks(sc);
-		Fullname(sc);
-		Fathername(sc);
-		Mothername(sc);
-		l.Sistername1(sc);
-		Sistername2(sc);
-		college(sc);
-		Friendname(sc);
-		favGame(sc);
-		course(sc);
+		divisible();
+		l.name();
+		l.method1();
+		l.addition();
+		l.subtraction();
+		method2();
+		even();
+		l.odd();
+		l.reverse();
+		l.reverse1();
+		l.table();
+		divisible1();
+		addition1();
+		sscMarks();
+		Fullname();
+		Fathername();
+		Mothername();
+		l.Sistername1();
+		Sistername2();
+		college();
+		Friendname();
+		favGame();
+		course();
 		
 		
 		
 	}
 
 //1
-	static void divisible(Scanner sc) {
+	static void divisible() {
 		System.out.println("Enter the Value");
 		int i = sc.nextInt();
 		for (int a = 0; a <= 100; a++) {
@@ -51,7 +52,7 @@ public class ScannerClass {
 	}
 
 //3		  print only my name instance method and no return value
-	  void name(Scanner sc) {
+	  void name() {
 		System.err.println("Enter the name");
 		 sc.nextLine(); 
 		String name = sc.nextLine(); 
@@ -59,7 +60,7 @@ public class ScannerClass {
 	}
 
 //4		  display the my name and age
-	void method1(Scanner sc) {
+	void method1() {
 		System.err.println("Display My name and age ");
 		System.out.println("Enter Your Name ");
 		String name = sc.nextLine();
@@ -71,7 +72,7 @@ public class ScannerClass {
 
 //		instance method and no return value 
 // 5		 addition of two numbers
-	void addition(Scanner sc) {
+	void addition() {
 		System.err.println("addition operation");
 		System.out.println("Enter the a value ");
 		int a = sc.nextInt();
@@ -82,7 +83,7 @@ public class ScannerClass {
 	}
 
 //6 	subtraction of two numbers
-	void subtraction(Scanner sc) {
+	void subtraction() {
 		System.err.println("subtraction operation");
 		System.out.println("Enter the a value ");
 		int a = sc.nextInt();
@@ -93,7 +94,7 @@ public class ScannerClass {
 	}
 
 //7		 display the from given number to 100
-	static void method2(Scanner sc) {
+	static void method2() {
 		System.err.println("Display the from given number to 100");
 		System.out.println("Enter the a value ");
 		int a = sc.nextInt();
@@ -103,7 +104,7 @@ public class ScannerClass {
 	}
 
 //8		 display the even of numbers from given number to 100
-	static void even(Scanner sc) {
+	static void even() {
 		System.err.println("Display the even of numbers from given number to 100");
 		System.out.println("Enter the a value ");
 		int i = sc.nextInt();
@@ -115,7 +116,7 @@ public class ScannerClass {
 	}
 
 //9		display the odd of numbers from given number to 100
-	void odd(Scanner sc) {
+	void odd() {
 		System.err.println("Display the odd of numbers from given number to 100");
 		System.out.println("Enter the a value ");
 		int i = sc.nextInt();
@@ -127,7 +128,7 @@ public class ScannerClass {
 	}
 
 //10	 display the reverse  numbers from given number  to 1
-	void reverse(Scanner sc) {
+	void reverse() {
 		System.err.println("Display the reverse  numbers from given number  to 1 ");
 		System.out.println("Enter the a value ");
 		int i = sc.nextInt();
@@ -136,7 +137,7 @@ public class ScannerClass {
 		}
 	}
 // 11		 display the reverse  numbers from given number decreasing - 5 to 1		
-	void reverse1(Scanner sc) {
+	void reverse1() {
 		System.err.println("Display the reverse  numbers from given number decreasing - 5 to 1 ");
 		System.out.println("Enter the a value ");
 		int i = sc.nextInt();
@@ -148,7 +149,7 @@ public class ScannerClass {
 	}
 	
 //12	  display the given number table
-	void table(Scanner sc) {
+	void table() {
 		System.err.println("Display the given number table ");
 		System.out.println("Enter the a value ");
 		int a = sc.nextInt();
@@ -157,7 +158,7 @@ public class ScannerClass {
 		}
 	}
 //13		display the divisible by given number from 1 to 100 number
-	static void divisible1(Scanner sc) {
+	static void divisible1() {
 		System.err.println("Display the divisible by given number from 1 to 100 numbers");
 		System.out.println("Enter the a value ");
 		int i = sc.nextInt();
@@ -170,7 +171,7 @@ public class ScannerClass {
 
 //14		display the sum of numbers from given number to 100
 
-	static void addition1(Scanner sc) {
+	static void addition1() {
 		System.err.println("Display the sum of numbers from given number to 100");
 		System.out.println("Enter the a value ");
 		int a = sc.nextInt();
@@ -183,7 +184,7 @@ public class ScannerClass {
 	
 //15
 
-	static void sscMarks(Scanner sc) {
+	static void sscMarks() {
 		System.err.println("Display the Avg SSCMarhs");
 		System.out.println("Enter the your Telugu marks ");
 		int Telugu = sc.nextInt();
@@ -205,7 +206,7 @@ public class ScannerClass {
 
 //16
 
-	static void Fullname(Scanner sc) {
+	static void Fullname() {
 		System.err.println("Fullname:");
 		System.out.println("Enter the a first name ");
 		String fname = sc.nextLine();
@@ -215,28 +216,28 @@ public class ScannerClass {
 	}
 //	17
 
-	static void Fathername(Scanner sc) {
+	static void Fathername() {
 		System.err.println("Father name:");
 		System.out.println("Enter the a Father name ");
 		String name = sc.nextLine();
 		System.out.println(name );
 	}
 //18	
-	static void Mothername(Scanner sc) {
+	static void Mothername() {
 		System.err.println("Mother name:");
 		System.out.println("Enter the a Mother name ");
 		String name = sc.nextLine();
 		System.out.println(name );
 	}
 //19	
-	 void Sistername1(Scanner sc) {
+	 void Sistername1() {
 		System.err.println("Sister name:");
 		System.out.println("Enter the a Sister1 name ");
 		String name = sc.nextLine();
 		System.out.println(name );
 	}
 //20
-	static void Sistername2(Scanner sc) {
+	static void Sistername2() {
 		System.err.println("Sister name:");
 		System.out.println("Enter the a Sister2 name ");
 		String name = sc.nextLine();
@@ -244,7 +245,7 @@ public class ScannerClass {
 	}
 	
 //21	
-	static void Friendname(Scanner sc) {
+	static void Friendname() {
 		System.err.println("Friend name:");
 		System.out.println("Enter the a Friend name ");
 		String name = sc.nextLine();
@@ -253,21 +254,21 @@ public class ScannerClass {
 
 
 //22	
-	static void college(Scanner sc) {
+	static void college() {
 		System.err.println("College name:");
 		System.out.println("Enter the a college name ");
 		String name = sc.nextLine();
 		System.out.println(name);
 	}
 //23
-	static void favGame(Scanner sc) {
+	static void favGame() {
 		System.err.println("FavGame name:");
 		System.out.println("Enter the a favGame name ");
 		String name = sc.nextLine();
 		System.out.println(name);
 	}
 //24	
-	static void course(Scanner sc) {
+	static void course() {
 		System.err.println("Course name:");
 		System.out.println("Enter the a course name ");
 		String name = sc.nextLine();
