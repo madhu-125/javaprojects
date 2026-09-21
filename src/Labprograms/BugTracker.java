@@ -74,7 +74,7 @@ public class BugTracker {
 		bt.assignTodeveloper = "Madhu";
 		
 		bt.displayBugdetails();
-		bt.AssignToDevloper(101, "Madhu");
+		bt.AssignToDevloper(101, "");
 		
 	}
 
