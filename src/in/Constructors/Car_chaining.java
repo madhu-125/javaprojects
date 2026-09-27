@@ -8,28 +8,23 @@ public class Car_chaining {
 	int year;
 
 	Car_chaining() {
-		car_brand = "Unknown";
-		car_model = "unknown";
-		color = "unknown";
-		price = 500000.0;
-		year = 1990;
-		this("KIA");
+		this("unknown");
 	}
 
 	Car_chaining(String car_brand) {
-		this(car_brand, "nexon");
+		this(car_brand, "unknown");
 	}
 
 	Car_chaining(String car_brand, String car_model) {
-		this(car_brand, "nexon", "Grey");
+		this(car_brand,car_model, "unknown");
 	}
 
 	Car_chaining(String car_brand, String car_model, String color) {
-		this(car_brand, "nexon", "Grey", 1750000.0);
+		this(car_brand,car_model, color, 500000.0);
 	}
 
 	Car_chaining(String car_brand, String car_model, String color, double price) {
-		this(car_brand, "nexon", "Grey", 1750000.0, 2025);
+		this(car_brand, car_model, color, price, 1990);
 	}
 
 	Car_chaining(String car_brand, String car_model, String color, double price, int year) {
@@ -44,10 +39,10 @@ public class Car_chaining {
 	public static void main(String[] args) {
 		Car_chaining c = new Car_chaining();
 		Car_chaining c1 = new Car_chaining("KIA");
-		Car_chaining c2 = new Car_chaining("KIA", "nexon");
-		Car_chaining c3 = new Car_chaining("KIA", "nexon", "Grey");
-		Car_chaining c4 = new Car_chaining("KIA", "nexon", "Grey", 1750000);
-		Car_chaining c5 = new Car_chaining("TATA", "nexon", "Grey", 1750000, 2026);
+		Car_chaining c2 = new Car_chaining("KIA", "sonet");
+		Car_chaining c3 = new Car_chaining("KIA", "sonet", "Grey");
+		Car_chaining c4 = new Car_chaining("KIA", "sonet", "Grey", 1450000);
+		Car_chaining c5 = new Car_chaining("TATA", "nexon", "Black_Red", 1750000, 2026);
 
 		c.Car_info();
 		c1.Car_info();
