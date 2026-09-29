@@ -89,8 +89,8 @@ public class Moblie_bill_Sc {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Moblie_bill_Sc mas = new Moblie_bill_Sc();
-		mas.display();
+//		Moblie_bill_Sc mas = new Moblie_bill_Sc();
+//		mas.display();
 		
 		System.out.println("Enter the Moblie Brand Name :");
 		String Moblie_Brand = sc.next();
