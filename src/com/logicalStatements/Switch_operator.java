@@ -1,4 +1,4 @@
-package in.Decision_Making;
+package com.logicalStatements;
 import java.util.Scanner;
 
 public class Switch_operator {
@@ -13,23 +13,23 @@ public class Switch_operator {
 		int b = sc.nextInt();
 		
 		System.out.println("Enter the operator:");
-		String oper = sc.next();
+		 char oper = sc.next().charAt(0);
 		
 		
 		switch(oper) {
-		case "+":
+		case '+':
 			System.out.println(a + b);
 		break;
-		case "-":
+		case '-':
 			System.out.println(a - b);
 		break;
-		case "*":
+		case '*':
 			System.out.println(a * b);
 		break;
-		case "/":
+		case '/':
 			System.out.println(a / b);
 		break;
-		case "%":
+		case '%':
 			System.out.println(a % b);
 		break;
 		default:

@@ -1,4 +1,4 @@
-package in.Decision_Making;
+package com.logicalStatements;
 
 import java.util.Scanner;
 

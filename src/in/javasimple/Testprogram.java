@@ -1,6 +1,6 @@
 package in.javasimple;
 
-public class madhu {
+public class Testprogram {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
