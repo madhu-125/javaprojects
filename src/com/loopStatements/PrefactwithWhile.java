@@ -1,8 +1,8 @@
-package ClassPrograms;
+package com.loopStatements;
 
 import java.util.Scanner;
 
-public class PrefectorNot {
+public class PrefactwithWhile {
 
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
@@ -21,13 +21,13 @@ public class PrefectorNot {
 	static boolean find(int n) {
 		boolean status=false;
 		int sum = 0;
-		
-		for (int i=1;i<=n/2 ; i++) {
+		int i=1;
+		while (i<=n/2) {
 			sum = sum + i;
 			if(n ==sum) {
 				status=true;
 			}
-		}
+		}i++;
 		return status;
 	}
 
